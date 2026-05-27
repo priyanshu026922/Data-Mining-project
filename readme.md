@@ -1,4 +1,4 @@
-# Fall Detection from Wearable Sensor Data using Machine Learning
+# Fall Detection from Wearable Time Series Sensor Data 
 
 ---
 
