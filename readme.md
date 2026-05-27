@@ -1,5 +1,4 @@
-# FallGuard
-### Fall Detection from Wearable Sensor Data using Machine Learning
+# Fall Detection from Wearable Sensor Data using Machine Learning
 
 ---
 
@@ -77,7 +76,6 @@ STEP 6 → Print results table and save plots
 | Logistic Regression | Linear classifier |
 | Decision Tree | Tree based |
 | Random Forest | Ensemble (from scratch) |
-| XGBoost | Gradient boosting (library) |
 
 KNN, Logistic Regression, Decision Tree and Random Forest are implemented from scratch using NumPy only.(Reference scratch codes-GITHUB Public Repos)
 
