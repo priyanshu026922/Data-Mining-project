@@ -1,10 +1,10 @@
-# Fall Detection from Wearable Time Series Sensor Data 
+# Fall Detection from Time Series Sensor Data 
 
 ---
 
 ## About the project-
 
-FallGuard detects whether a person has fallen using time series sensor data.
+This detects whether a person has fallen using time series sensor data.
 It reads wearable sensor recordings, processes them into windows, and classifies
 each window as a fall (Class 1) or normal activity (Class 0).
 
@@ -13,12 +13,12 @@ each window as a fall (Class 1) or normal activity (Class 0).
 ## Project Structure
 
 ```
-FallGuard/
+Main Project folder/
 │
 ├── main.py               # Main pipeline — run this
 ├── data_handler.py       # Reads CSV files, creates sliding windows
 ├── imbalance_handler.py  # Handles class imbalance (undersampling)
-├── models.py             # KNN, Logistic Regression, Decision Tree, Random Forest, XGBoost
+├── models.py             # KNN, Logistic Regression, Decision Tree, Random Forest
 ├── evaluation.py         # F1 Score, Balanced Accuracy, Confusion Matrix, K-Fold CV
 ├── visualization.py      # Saves plots to output_plots/
 ├── model_saver.py        # Saves and loads trained models
